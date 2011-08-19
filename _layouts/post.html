@@ -2,13 +2,12 @@
 layout: default
 ---
 
-<div class="entry-content">
+<div class="post">
 	<h2>
 		{{ page.title }}
 	</h2>
-    <span>
-		Published: {{ page.date }}
-	</span>
+	<p>
+	{{ post.date | date: "%B %d, %Y" }}
 	{{ content }}	
-	
+	</p>
 </div>	
