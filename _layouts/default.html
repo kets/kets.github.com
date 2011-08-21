@@ -3,26 +3,31 @@
 <head>
     <title>{{ page.title }}</title>
 	 <link rel="stylesheet" href="/css/style.css" />
+	 <div id="header">
+        <a href="/"></a>
+    </div>   
 </head>
 
-<body>
-	<div id="header">
-        <a href="/"></a>
-    </div>    
-	 <div id="content">
-      <div id="maincol">
+<body>	 
+	 <div id="container">	
+	
+      <div id="maincol">	   
         {{ content }}
+		
+		
       </div>
-      <div id="subcol">
-        <div id="about">
+	  <div id="subcol">
+        
           <div id="twitter">
             <a href="http://www.twitter.com/toesoxluver"></a>
           </div>
+		  <div class="clear"></div>
           <div id="github">
             <a href="http://www.github.com/kets"></a>
           </div>
-        </div>
+        
       </div>
+      <div class="clear"></div>
     </div>
    
 

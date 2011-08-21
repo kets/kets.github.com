@@ -1,11 +1,21 @@
 body {
   background:#d9ecff;
-  margin:0;
-  font:normal normal 500% 'Trebuchet MS', Trebuchet, Verdana, Sans-Serif;
-  font-size:15px;
-  text-align: center;
+  margin:0;  
+  font-family:'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+  font-size:13px;
   color: #215670;
+  width: 100%;
+
   }
+  #container {
+  width: 1000px;
+  padding-left:0px;
+ 
+  margin: 0px auto;
+  background-color: #d9ecff;  
+  }
+  
+
 a:link {
   color:#003366;
   text-decoration:none;
@@ -26,15 +36,10 @@ a img {
 -----------------------------------------------
  */
 
-#header-wrapper {
-  width:1000px;
-  margin:0 auto 0px;
-  border:0px solid #215670;
-  }
+
 
 #header { 
-  margin: 0px;
-  border: 0px solid #215670;
+  
   text-align: center;
 
 }
@@ -50,52 +55,43 @@ a img {
 }
 
 #header a {
-  width: 100%;
+  width:100%;
   background:#d9ecff url('../images/salzburgpan.jpg') no-repeat center;
   height: 200px;
   padding-top:25px;  
   display: block;
+  text-align: center;
   }
 
 
- 
+p {
+  margin: 10px 0;
+}
 
+strong {
+  font-weight: bold;
+}
 
-/* Outer-Wrapper
------------------------------------------------ */
-#outer-wrapper {
-  width: 1000px;
-  margin:0 auto;
-  padding:0px;
-  text-align:left;
-  font: $bodyfont;
-  }
-
-#main-wrapper {
-  width: 700px;
-  float: left;
-  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
-  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
-  }
-
-#sidebar-wrapper {
-  width: 220px;
-  float: right;
- /* fix for long text breaking sidebar float in IE   word-wrap: break-word;*/
-     /* fix for long non-text content breaking IE sidebar float   overflow: hidden;*/
+em {
+  text-decoration: italic;
 }
 
 
 /* Headings
 ----------------------------------------------- */
 
-h2 {
+h2, h3, h4 {
   margin:1.5em 0 .75em;  
   line-height: 1.4em;
   letter-spacing:.2em;
-  color:#;
+  
 }
-
+h2{
+  font-size:25px;
+}
+h3{
+  font-size:15px;
+}
 
 /* Posts
 -----------------------------------------------
@@ -107,20 +103,27 @@ h2 {
 }
 
  #maincol {
-  background-color:#d9ecff
+  background-color:#d9ecff;
    font-size:15px;
+   width: 800px;
+   float: left;
+   
 
 }
- #maincol h2.date-header {
-  margin:1.5em 0 .5em;
-   font-size:15px;
+ #maincol .date {
+ 
+   font-size:13px;
+   padding-bottom:5px;
   }
 
 #maincol .post {
   margin:.5em 0 1.5em;
   border-bottom:1px dotted #215670;
+  padding-left:11px;
+  
   padding-bottom:1.5em;
   font-size: 15px;
+ 
   
   
   }
@@ -137,7 +140,7 @@ h2 {
   display:block;
   text-decoration:none;
   color:#003366;
-  font-size:20px;
+  font-size:150%;
 
 }
 
@@ -156,48 +159,37 @@ h2 {
   margin: .75em 0;
   color:#4c4c4c;
 
-  letter-spacing:.1em;
+  
   font: normal normal 91% Trebuchet, Trebuchet MS, Arial, sans-serif;
   line-height: 1.4em;
 }
 
-.post img {
-  padding:4px;
-  border:0px #215670;
-  }
-.post blockquote {
-  margin:1em 20px;
-  }
-.post blockquote p {
-  margin:.75em 0;
-  }
- 
- 
- #subcol {
+#subcol {
 	  background-color:#d9ecff;
-	  position: absolute;
-	  top: 0;
-	  right: 0;
-	  width: 30%;
-	  height: 100%;
- }
- 
- #about {
-  padding: 15px 0 0 25px;
+	  
+	  width: 300px;
+	  height: 1000px;
+	  float: right;
  }
 
-#twitter a {
-  background: url('../images/twitter.png') no-repeat;
+
+#subcol .twitter a{
+  
   display: block;
-  height: 71px;
+  height: 200px;
 }
-#github {
+#subcol .github {
   padding-top: 15px;
-}
-
-#github a {
-  background: url('../images/github.png') no-repeat;
+ 
   display: block;
-  height: 71px;
+  height: 200px;
 }
 
+.clear { clear: both;}
+
+
+
+  
+  
+ 
+ 
