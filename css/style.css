@@ -1,0 +1,195 @@
+body {
+  background:#d9ecff;
+  margin:0;
+  font:normal normal 500% 'Trebuchet MS', Trebuchet, Verdana, Sans-Serif;
+  font-size:15px;
+  text-align: center;
+  color: #215670;
+  }
+a:link {
+  color:#003366;
+  text-decoration:none;
+  }
+a:visited {
+  color:#003366;
+  text-decoration:none;
+  }
+a:hover {
+  color:#666666;
+  text-decoration:none;
+}
+a img {
+  border-width:0;
+  }
+
+/* Header
+-----------------------------------------------
+ */
+
+#header-wrapper {
+  width:1000px;
+  margin:0 auto 0px;
+  border:0px solid #215670;
+  }
+
+#header { 
+  margin: 0px;
+  border: 0px solid #215670;
+  text-align: center;
+
+}
+
+#header h1 {
+  margin:5px 5px 0;
+  padding:15px 20px .25em;
+  line-height:1.2em;
+  font: normal normal 249% Georgia, Times, serif;
+  font-size: 15px;
+}
+
+#header a {
+  width: 100%;
+  color:#006699 url('../images/salzburgpan.jpg') no-repeat center;
+  height: 200px;
+  padding-top:25px;
+  text-decoration:none;
+  display: block;
+  }
+
+
+ 
+
+
+/* Outer-Wrapper
+----------------------------------------------- */
+#outer-wrapper {
+  width: 1000px;
+  margin:0 auto;
+  padding:0px;
+  text-align:left;
+  font: $bodyfont;
+  }
+
+#main-wrapper {
+  width: 700px;
+  float: left;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+  }
+
+#sidebar-wrapper {
+  width: 220px;
+  float: right;
+ /* fix for long text breaking sidebar float in IE   word-wrap: break-word;*/
+     /* fix for long non-text content breaking IE sidebar float   overflow: hidden;*/
+}
+
+
+/* Headings
+----------------------------------------------- */
+
+h2 {
+  margin:1.5em 0 .75em;  
+  line-height: 1.4em;
+  letter-spacing:.2em;
+  color:#;
+}
+
+
+/* Posts
+-----------------------------------------------
+ */
+ #content {
+  margin: 0 auto;
+  position: relative;
+  padding-top: 15px;
+}
+
+ #maincol {
+  background-color:#d9ecff
+
+}
+ #maincol h2.date-header {
+  margin:1.5em 0 .5em;
+  }
+
+#maincol .post {
+  margin:.5em 0 1.5em;
+  border-bottom:1px dotted #215670;
+  padding-bottom:1.5em;
+  
+  }
+#maincol .post h2 {
+  margin:.25em 0 0;
+  padding:0 0 4px;
+  font-size:140%;
+
+  line-height:1.4em;
+  color:#003366;
+}
+
+#maincol .post h3 a, .post h3 a:visited, .post h3 strong {
+  display:block;
+  text-decoration:none;
+  color:#003366;
+
+}
+
+#maincol .post h3 normal, .post h3 a:hover {
+  color:#215670;
+}
+
+#maincol .post p {
+  margin:0 0 .75em;
+  line-height:1.6em;
+}
+
+#maincol .post-footer {
+  margin: .75em 0;
+  color:#4c4c4c;
+
+  letter-spacing:.1em;
+  font: normal normal 91% Trebuchet, Trebuchet MS, Arial, sans-serif;
+  line-height: 1.4em;
+}
+
+.post img {
+  padding:4px;
+  border:0px #215670;
+  }
+.post blockquote {
+  margin:1em 20px;
+  }
+.post blockquote p {
+  margin:.75em 0;
+  }
+ 
+ 
+ #subcol {
+	  background-color:#d9ecff;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  width: 30%;
+	  height: 100%;
+ }
+ 
+ #about {
+  padding: 15px 0 0 25px;
+ }
+
+#twitter a {
+  background: url('../images/twitter.png') no-repeat;
+  display: block;
+  height: 71px;
+}
+#github {
+  padding-top: 15px;
+}
+
+#github a {
+  background: url('../images/github.png') no-repeat;
+  display: block;
+  height: 71px;
+}
+

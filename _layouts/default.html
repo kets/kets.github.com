@@ -2,12 +2,29 @@
 <html>
 <head>
     <title>{{ page.title }}</title>
+	 <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
-    <h1>
-		{{ content }}
-	</h1>
+	<div id="header">
+        <a href="/"></a>
+    </div>    
+	 <div id="content">
+      <div id="maincol">
+        {{ content }}
+      </div>
+      <div id="subcol">
+        <div id="about">
+          <div id="twitter">
+            <a href="http://www.twitter.com/toesoxluver"></a>
+          </div>
+          <div id="github">
+            <a href="http://www.github.com/kets"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
 
 </body>
 </html>
