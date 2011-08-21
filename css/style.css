@@ -39,20 +39,21 @@ a img {
 
 }
 
-#header h1 {
+#header a, h1 a {
   margin:5px 5px 0;
   padding:15px 20px .25em;
   line-height:1.2em;
   font: normal normal 249% Georgia, Times, serif;
   font-size: 15px;
+  text-decoration:none;
+  color: #d9ecff
 }
 
 #header a {
   width: 100%;
-  color:#006699 url('../images/salzburgpan.jpg') no-repeat center;
+  background:#d9ecff url('../images/salzburgpan.jpg') no-repeat center;
   height: 200px;
-  padding-top:25px;
-  text-decoration:none;
+  padding-top:25px;  
   display: block;
   }
 
@@ -107,22 +108,26 @@ h2 {
 
  #maincol {
   background-color:#d9ecff
+   font-size:15px;
 
 }
  #maincol h2.date-header {
   margin:1.5em 0 .5em;
+   font-size:15px;
   }
 
 #maincol .post {
   margin:.5em 0 1.5em;
   border-bottom:1px dotted #215670;
   padding-bottom:1.5em;
+  font-size: 15px;
+  
   
   }
 #maincol .post h2 {
   margin:.25em 0 0;
   padding:0 0 4px;
-  font-size:140%;
+  font-size:20px;
 
   line-height:1.4em;
   color:#003366;
@@ -132,16 +137,19 @@ h2 {
   display:block;
   text-decoration:none;
   color:#003366;
+  font-size:20px;
 
 }
 
 #maincol .post h3 normal, .post h3 a:hover {
   color:#215670;
+   font-size:20px;
 }
 
 #maincol .post p {
   margin:0 0 .75em;
   line-height:1.6em;
+  font-size:15px;
 }
 
 #maincol .post-footer {
