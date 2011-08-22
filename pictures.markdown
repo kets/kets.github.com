@@ -3,6 +3,6 @@ layout: default
 title: Pictures
 ---
 
-About
+Pictures
 
 Coming soon!
