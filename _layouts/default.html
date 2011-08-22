@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>{{ page.title }}</title>
-	 <link rel="stylesheet" href="/css/style.css" />
-	 <div id="header">
-        <a href="/"></a>
-    </div>   
-</head>
+	<head>
+		<title>{{ page.title }}</title>
+		 <link rel="stylesheet" href="/css/style.css" />
+		 <div id="header">
+			<a href="/"></a>
+		</div>   
+	</head>
+	<body>	 
+		 <div id="container">	
+		  <nav>
+			  <a href="/">Home</a>
+			  <a href="/about.html">About </a>
+			  <a href="/pictures.html">Pictures</a>
+			  <a href="/doodles.html">Doodles</a>
+			</nav>
 
-<body>	 
-	 <div id="container">	
-	  <nav>
-          <a href="/">Home</a>
-          <a href="/about.html">About </a>
-		  <a href="/pictures.html">Pictures</a>
-		  <a href="/doodles.html">Doodles</a>
-        </nav>
-	
-      <div id="maincol">	   
-        {{ content }}
-		
-		
-      </div>
-	 
-      <div class="clear"></div>
-    </div>
-   
-
-</body>
+		  <div id="maincol">	   
+			{{ content }}	
+		  </div>
+		 
+		  <div class="clear"></div>
+		</div>
+	</body>
 </html>

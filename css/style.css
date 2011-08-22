@@ -161,27 +161,6 @@ h3{
   line-height: 1.4em;
 }
 
-#subcol {
-	  background-color:white;
-	  vertical-align: top;
-	  width: 0px;
-	  height: 500px;
-	  float: right;
- }
-
-
-#subcol .twitter {
-  
-  display: block;
-  height: 200px;
-}
-#subcol .github {
-  padding-top: 15px;
- 
-  display: block;
-  height: 200px;
-}
-
 nav {
   width: 100%;
   margin: 20px 0 0 0;
