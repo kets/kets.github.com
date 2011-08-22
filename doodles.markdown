@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Pictures
+title: Doodles
 ---
 
-About
+Doodles
 
 Coming soon!
