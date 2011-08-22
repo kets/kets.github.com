@@ -8,7 +8,7 @@ body {
 
   }
   #container {
-  width: 1000px;
+  width: 900px;
   padding-left:0px; 
   margin: 0px auto;
   background-color: white;  
@@ -54,7 +54,7 @@ a img {
 #header a {
   width:100%;
   background:white url('../images/banner.png') no-repeat center;
-  height: 235px;
+  height: 261px;
   display: block;
   text-align: center;
   }
@@ -102,7 +102,7 @@ h3{
   padding-top: 15px;
   background-color:white;
    font-size:15px;
-   width: 800px;
+   width: 900px;
    float: left;
    
 
@@ -164,7 +164,7 @@ h3{
 #subcol {
 	  background-color:white;
 	  vertical-align: top;
-	  width: 200px;
+	  width: 0px;
 	  height: 500px;
 	  float: right;
  }
