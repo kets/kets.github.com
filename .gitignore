@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 _site/
+=======
+.bundle
+.DS_Store
+.sass-cache
+_gist_cache
+_code_cache
+_deploy
+public
+sass.old
+source.old
+source/_stash
+source/stylesheets/screen.css
+vendor
+>>>>>>> 376a22a355ad358189895e3ba72e9cf4b2b05a07
