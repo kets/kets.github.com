@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 safe: true
 lsi: false
 pygments: true
 auto: true
-=======
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
@@ -79,4 +77,4 @@ disqus_short_name:
 
 # Google Analytics
 google_analytics_tracking_id:
->>>>>>> 376a22a355ad358189895e3ba72e9cf4b2b05a07
+
